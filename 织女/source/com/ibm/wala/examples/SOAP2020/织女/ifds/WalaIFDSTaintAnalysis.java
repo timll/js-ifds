@@ -18,7 +18,6 @@ import com.ibm.wala.cast.tree.CAstSourcePositionMap.Position;
 import com.ibm.wala.cast.util.SourceBuffer;
 import com.ibm.wala.classLoader.Module;
 import com.ibm.wala.dataflow.IFDS.ICFGSupergraph;
-import com.ibm.wala.dataflow.IFDS.IFlowFunction;
 import com.ibm.wala.dataflow.IFDS.IMergeFunction;
 import com.ibm.wala.dataflow.IFDS.IPartiallyBalancedFlowFunctions;
 import com.ibm.wala.dataflow.IFDS.ISupergraph;

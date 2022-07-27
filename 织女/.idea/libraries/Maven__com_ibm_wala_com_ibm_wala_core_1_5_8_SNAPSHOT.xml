@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: com.ibm.wala:com.ibm.wala.core:1.5.8-SNAPSHOT">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.core/1.5.8-SNAPSHOT/com.ibm.wala.core-1.5.8-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.core/1.5.8-SNAPSHOT/com.ibm.wala.core-1.5.8-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
