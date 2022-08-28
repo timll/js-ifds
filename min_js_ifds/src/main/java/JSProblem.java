@@ -34,8 +34,6 @@ class JSProblem implements PartiallyBalancedTabulationProblem<BasicBlockInContex
         this.flowFunctions = new JSFlowFunctions(domain, supergraph);
     }
 
-
-
     /**
      * we use the entry block of the CGNode as the fake entry when propagating from
      * callee to caller with unbalanced parens
@@ -80,7 +78,7 @@ class JSProblem implements PartiallyBalancedTabulationProblem<BasicBlockInContex
             IR ir = bb.getNode().getIR();
             for(int v = 0; instruction != null && v < instruction.getNumberOfUses(); v++) {
                 String[] arr = ir.getLocalNames(bb.getNumber(), instruction.getUse(v));
-                System.out.println(Arrays.toString(arr));
+//                System.out.println(Arrays.toString(arr));
             }
             if (sources.apply(bb)) {
                 Pair<Integer, BasicBlockInContext<IExplodedBasicBlock>> fact = Pair.make(instruction.getDef(), bb);
